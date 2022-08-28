@@ -1,0 +1,81 @@
+:root{
+    --fondo: #1C1F20;
+    --fondo-oscuro: #181A1B;
+    --negro: #000;
+    --blanco: #fff;
+    --enlace: #32a3f6;
+    --verde: #0f3229;
+    --gris-oscuro: #151515;
+    --azul-oscuro: rgb(3, 5, 30);
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+*{color: var(--blanco);}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--fondo-oscuro);
+}
+
+h1, h2, h3{
+    margin: .5rem 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.contenedor-principal{
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: var(--fondo);
+    max-width: 100rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a, li{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+li{
+    padding: .8rem 0;
+}
+
+.contenedor-listas{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.opcion-lista{
+    animation-delay: 1s;
+}
+
+.opcion-lista:hover{
+    background-color: var(--gris-oscuro);
+}

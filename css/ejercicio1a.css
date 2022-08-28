@@ -1,0 +1,27 @@
+/* ejercicio1a.css SZ19002 */
+
+fichero{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 3px darkblue solid;
+}
+
+ficha{
+    padding: 5px;
+    border: 3px red solid;
+}
+
+ficha *{
+    display: block;
+}
+
+nombre, apellido{
+    display: inline;
+}
+

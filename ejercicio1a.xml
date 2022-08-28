@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="css/ejercicio1a.css"?>
+<!-- ejemplo1.xml SZ19002 -->
+<fichero>
+  <ficha id="1" fechaingreso="1/11/2012">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+
+  <ficha id="2" fechaingreso="16/2/2019">
+    <nombre>Daniel</nombre>
+    <apellido>Serrano</apellido>
+    <direccion>La sierpe, Chalatenango, Chalatenango</direccion>  
+    <telefono tipo="celular">79513218</telefono>
+    <email>sz19002@ues.edu.sv</email>
+    <urlwebpersonal>https://danyserrano.github.io/PracticaSitioBrackets/</urlwebpersonal>
+  </ficha>
+  
+</fichero>

@@ -1,0 +1,29 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"departamento":[
+			{
+				"@id":"1",
+				"@nombre":"San Salvador",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM"
+			},
+			{
+				"@id":"2",
+				"@nombre":"Chalatenango",
+				"cabecera":"Chalatenango",
+				"habitantes":"21,102",
+				"altura":"396 MSNM",
+				"moneda":"Dólar estadounidense",
+				"codigotelefonico":"503",
+				"idiomas":{
+					"idiomaoficial":"Español",
+					"idiomaautoctono":"Náhuatl",
+					"segundoidioma":"Inglés"
+				},
+				"areaterritorial":"131.8 km2"
+			}
+		]
+	}
+}

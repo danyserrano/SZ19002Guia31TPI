@@ -1,0 +1,21 @@
+/* ejemplo2.css SZ19002 */
+
+
+pais::before {
+    content: attr(nombre);
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+pais{
+    background-color: cadetblue;
+    display: block;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 40px;
+}
+
+cabecera, habitantes, altura{
+    display: block;
+}
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="css/ejercicio2a.css"?>
+<!-- ejercicio2b.xml SZ19002 -->
+<pais nombre="El Salvador">
+  <departamento id="1" nombre="San Salvador">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+    <altura>545 MSNM</altura>
+</departamento>
+
+<departamento id="2" nombre="Chalatenango">
+    <cabecera>Chalatenango</cabecera>
+    <habitantes>275,100</habitantes>
+    <altura>396 MSNM</altura>
+    <moneda>Dólar estadounidense</moneda>
+    <codigotelefonico>503</codigotelefonico>
+    <idiomas>
+      <idiomaoficial>Español</idiomaoficial>
+      <idiomaautoctono>Náhuatl</idiomaautoctono>
+      <segundoidioma>Inglés</segundoidioma>
+    </idiomas>
+    <areaterritorial>2,017 km2</areaterritorial>
+</departamento>
+
+<departamento id="3" nombre="Santa Ana">
+    <cabecera>Santa Ana</cabecera>
+    <habitantes>631,100</habitantes>
+    <altura>763 MSNM</altura>
+    <moneda>Dólar estadounidense</moneda>
+    <codigotelefonico>503</codigotelefonico>
+    <idioma tipo="oficial">Español</idioma>
+    <idioma tipo="autoctono">Nahuatl</idioma>
+    <idioma tipo="secundario">Inglés</idioma>
+    <areaterritorial>2,023 km2</areaterritorial>
+</departamento>
+
+</pais>

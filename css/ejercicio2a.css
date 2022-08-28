@@ -1,0 +1,26 @@
+pais::before {
+    display: block;
+    content: attr(nombre);
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+pais{
+    background-color: cadetblue;
+    display: block;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+pais *{
+    display: block;
+    font-size: 30px;
+}
+
+departamento::before {
+    display: block;
+    content: attr(nombre);
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

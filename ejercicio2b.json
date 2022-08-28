@@ -1,0 +1,53 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"departamento":[
+			{
+				"@id":"1",
+				"@nombre":"San Salvador",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM"
+			},
+			{
+				"@id":"2",
+				"@nombre":"Chalatenango",
+				"cabecera":"Chalatenango",
+				"habitantes":"275,100",
+				"altura":"396 MSNM",
+				"moneda":"Dólar estadounidense",
+				"codigotelefonico":"503",
+				"idiomas":{
+					"idiomaoficial":"Español",
+					"idiomaautoctono":"Náhuatl",
+					"segundoidioma":"Inglés"
+				},
+				"areaterritorial":"2,017 km2"
+			},
+			{
+				"@id":"3",
+				"@nombre":"Santa Ana",
+				"cabecera":"Santa Ana",
+				"habitantes":"631,100",
+				"altura":"763 MSNM",
+				"moneda":"Dólar estadounidense",
+				"codigotelefonico":"503",
+				"idioma":[
+					{
+						"@tipo":"oficial",
+						"#text":"Español"
+					},
+					{
+						"@tipo":"autoctono",
+						"#text":"Nahuatl"
+					},
+					{
+						"@tipo":"secundario",
+						"#text":"Inglés"
+					}
+				],
+				"areaterritorial":"2,023 km2"
+			}
+		]
+	}
+}
